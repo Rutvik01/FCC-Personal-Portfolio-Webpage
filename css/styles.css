@@ -123,6 +123,22 @@ html {
   padding-bottom: 1rem;
 }
 
+/* Center align the text */
+#projects {
+  text-align: center !important;
+}
+
+/* Enlarge button*/
+.btn {
+  display: block;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
 /*---------- Footer ----------*/
 
 /* Footer text size/colour */

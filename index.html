@@ -1,9 +1,157 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-  <title></title>
+  
+  <!-- Tags -->
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content=""> <!-- brief description of site goes here, this will be what shows when someone searches for me in google -->
+
+  <!-- Title -->
+  <title>Tom Bell</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  
+  <!-- My CSS styles -->
+  <link href="css/styles.css" rel="stylesheet">
+    
+  <!-- favicon goes here - need to create -->
+  <link rel="icon" href="favicon.ico">
+
 </head>
+  
 <body>
 
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-expand-md navbar-light static-top bg-light">
+    <div class="mt-2 container lead text">
+      <a class="navbar-brand" id="colourmein" href="#"><strong>TOM BELL</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="colourmein" href="#About">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="colourmein" href="#Contact">GET IN TOUCH</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Header -->
+
+  <div class="jumbotron text-center" id="Header">
+    <div class="container">
+      <img src="img/Tom Bell.jpg" class="img-fluid rounded-circle" id="headerimg">
+      <p></p>
+      <h3 class="display-3">TOM BELL</h3>
+      <hr>
+      <h3 class="display-5"><a style="color: white" href="https://www.happypad.co" target="_blank">FOUNDER OF THE HAPPY PAD COMPANY</a></h3>
+      <br>
+      <div class="container">
+        <span class="container">
+          <a href="https://instagram.com/thomasjbell7" target="_blank"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+        </span>
+        <span class="container">
+          <a href="https://twitter.com/thomasjbell7" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+        </span>
+        <span class="container">
+          <a href="https://medium.com/@thomasjbell8" target="_blank"><i class="fa fa-medium fa-4x" aria-hidden="true"></i></a>
+        </span>
+        <span class="container">
+          <a href="https://www.linkedin.com/in/tombell7/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About -->
+    
+  <div class="container-fluid lead text text-justify" id="About">
+    <div class="container">
+      <h1 class="text-center">ABOUT</h1>
+      <hr>
+      <br>
+      <p>Hi, I’m Tom and I’m the founder and owner of The Happy Pad Company. I’ve always wanted to start a business and The Happy Pad Company is my first venture that I have turned from an idea into a reality. I’m always learning about how to become more productive and how to use technology in a way that makes things run more efficiently. I’m also really good at Microsoft Excel.</p>
+      <p>The Happy Pad Company is launching in early 2018, and we are a growing business that offers fun stationery and gifts at affordable prices. Serving customers across the United Kingdom, we provide a wide variety of items – from notepads and pencil cases to mugs and water bottles.</p>
+      <p>We also offer fantastic customer service, ensuring that the process of ordering from us is as simple as possible and making sure that any questions that you have are answered accurately and with integrity.</p>
+      <p>Our website is <a id="colourmein" href="https://www.happypad.co" target="_blank">happypad.co</a>. Take a look, we’ve got some amazing stuff there!</p>
+      <p>If you'd like to connect with me, you can do so by clicking the icons above.</p>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  
+  <div class="container-fluid lead text text-justify" id="Contact">
+    <div class="container">
+      <h1 class="text-center">GET IN TOUCH</h1>
+      <hr>
+      <br>
+      <p>Don't forget to say hello! If you would like to contact me - you can do so in a multitude of ways. Use the social media links above, fill in the contact form below, or if you prefer email - you can email me at <a id="colourmein" href="mailto:tom@happypad.co"><strong>tom@happypad.co</strong></a> and I will respond as soon as I can.</p>
+      <br>
+      <div class="container" id="contactform">
+        <form action="https://formspree.io/tom@happypad.co" method="POST">
+          <div class="form-row text-left">
+            <div class="form-group col-md-6">
+              <label class="form-control-label" for="formGroupExampleInput">NAME:</label>
+              <input type="text" class="form-control" id="sjdfbksdjbf" name="Name" placeholder="Your name" required>
+              <input type="text" name="_gotcha" style="display:none"/>
+            </div>
+            <div class="form-group col-md-6">
+              <label class="form-control-label" for="exampleFormControlInput1">EMAIL ADDRESS:</label>
+              <input type="email" class="form-control" id="fksjbfb" name="Email Address" placeholder="Your email address" required>
+            </div>
+          </div>
+          <div class="form-group text-left">
+            <label class="form-control-label" for="exampleFormControlTextarea1">MESSAGE:</label>
+            <textarea class="form-control" id="sfjbsdkjbf" name="Message" placeholder="Your message" rows="8" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  
+  <footer class="footer">
+    <div class="container lead text" id="colourmein">
+      <span class="pull-right">
+        <a href="https://www.linkedin.com/in/tombell7/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      </span>
+      <span class="pull-right">
+        <a href="https://www.medium.com/@thomasjbell8" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+      </span>
+      <span class="pull-right">
+        <a href="https://www.twitter.com/thomasjbell7" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+      </span>
+      <span class="pull-right">
+        <a href="https://instagram.com/thomasjbell7" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      </span>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <!-- Font awesome - for icons -->
+  <script src="https://use.fontawesome.com/1923cc6bc8.js"></script>
+
 </body>
+
 </html>

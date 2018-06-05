@@ -85,6 +85,11 @@ html {
   max-width: 40rem;
 }
 
+/* welcome-section container height */
+#welcome-section {
+  height: 100vh;
+}
+
 /*---------- About ----------*/
 
 /* Horizontal rule formatting */
@@ -244,8 +249,3 @@ body {
   color: #02b875;
 }
 
-/*---------- Welcome Section ----------*/
-
-#welcome-section {
-  height: 100vh;
-}

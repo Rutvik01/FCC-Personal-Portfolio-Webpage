@@ -48,6 +48,7 @@ html {
   color: #F2385A;
 }
 
+
 /*---------- welcome-section ----------*/
 
 /* Horizontal rule formatting */
@@ -89,6 +90,17 @@ html {
 #welcome-section {
   height: 100vh;
 }
+
+/* welcome-section margin top*/
+
+#welcome-sectionimg {
+  margin-top: 50px;
+}
+
+
+
+
+
 
 /*---------- About ----------*/
 
@@ -175,10 +187,13 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 /* Margin bottom by footer height */
 body {
   margin-bottom: 60px;
 }
+
+
 
 /*---------- Miscellaneous - Site colours (for reference) ----------*/
 
